@@ -11,7 +11,7 @@ with st.form(key="my_form"):
     jenis_kelamin = st.radio("Jenis Kelamin", ("Laki-Laki", "Perempuan"))
     hobi = st.multiselect(
         "Hobi",
-        ["Membaca", "Olahraga", "Musik", "Memasak", "Traveling", "Fotografi", "Menggambar"]
+        ["Tour Guide",  "Traveling", "Wota"]
     )
     gambar = st.file_uploader("Upload Gambar", type=["png", "jpg", "jpeg"])
     submit = st.form_submit_button(label="Kirim")
